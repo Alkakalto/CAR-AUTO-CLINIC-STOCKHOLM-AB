@@ -1,6 +1,6 @@
 # Car Auto Clinic Stockholm – demonstrationshemsida
 
-En komplett, statisk one-page-hemsida framtagen av KaltofixIT som försäljningsdemo för **CAR AUTO CLINIC STOCKHOLM AB**. Projektet använder endast HTML, CSS och JavaScript och är redo för GitHub Pages.
+En komplett, statisk flersideshemsida framtagen av KaltofixIT som försäljningsdemo för **CAR AUTO CLINIC STOCKHOLM AB**. Projektet använder endast HTML, CSS och JavaScript och är redo för GitHub Pages eller vanligt webbhotell.
 
 > Sidan är ett inofficiellt koncept. Den har `noindex, nofollow`, alla tjänster är markerade som förslag och galleribilderna är AI-genererade demonstrationsbilder.
 
@@ -9,7 +9,11 @@ En komplett, statisk one-page-hemsida framtagen av KaltofixIT som försäljnings
 ```text
 car-auto-clinic/
 ├── index.html
+├── tjanster.html
+├── galleri.html
+├── kontakt.html
 ├── README.md
+├── DEPLOY-MISS-HOSTING.md
 └── assets/
     ├── css/style.css
     ├── js/main.js
@@ -73,6 +77,7 @@ De fyra rasterbilderna i `assets/images/` skapades med OpenAI:s inbyggda bildgen
 ## Teknik och tillgänglighet
 
 - Semantisk HTML5 och korrekt rubrikhierarki.
+- Fyra fokuserade sidor med gemensam navigation.
 - Responsiv layout för mobil, surfplatta och desktop.
 - Tangentbordsstyrd mobilmeny och bilddialog.
 - Fokusmarkeringar och valideringsmeddelanden.
